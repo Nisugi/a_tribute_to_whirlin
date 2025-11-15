@@ -1,0 +1,85 @@
+{
+  "total_sheets": 16,
+  "sheets": [
+    {
+      "name": "Trainer",
+      "rows": 334,
+      "columns": 117
+    },
+    {
+      "name": "Ascension",
+      "rows": 22,
+      "columns": 20
+    },
+    {
+      "name": "Enhancive Builds",
+      "rows": 85,
+      "columns": 25
+    },
+    {
+      "name": "Enhancive Inventory",
+      "rows": 103,
+      "columns": 32
+    },
+    {
+      "name": "Defense Strength",
+      "rows": 257,
+      "columns": 105
+    },
+    {
+      "name": "Attack Strength",
+      "rows": 40,
+      "columns": 105
+    },
+    {
+      "name": "Aiming",
+      "rows": 22,
+      "columns": 105
+    },
+    {
+      "name": "Services",
+      "rows": 35,
+      "columns": 80
+    },
+    {
+      "name": "Society",
+      "rows": 35,
+      "columns": 17
+    },
+    {
+      "name": "Tables",
+      "rows": 211,
+      "columns": 169
+    },
+    {
+      "name": "Weapon Tables",
+      "rows": 98,
+      "columns": 80
+    },
+    {
+      "name": "Sheet3",
+      "rows": 63,
+      "columns": 3
+    },
+    {
+      "name": "Spell Effects",
+      "rows": 49,
+      "columns": 113
+    },
+    {
+      "name": "Releases, Versions, etc",
+      "rows": 22,
+      "columns": 2
+    },
+    {
+      "name": "Sheet2",
+      "rows": 21,
+      "columns": 7
+    },
+    {
+      "name": "Player Skills Manager",
+      "rows": 124,
+      "columns": 6
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "name": "Releases, Versions, etc",
+  "rows": [
+    [
+      {
+        "value": "Version",
+        "coordinate": "A1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Changes",
+        "coordinate": "B1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2025.1",
+        "coordinate": "A2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Updated Paladin TP Costs\nAdded Transcend Destiny (Doesn't add CS ATM)\nFixed Paladin HP Cap",
+        "coordinate": "B2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2024.1",
+        "coordinate": "A3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Added Premium/Standard Enhancement Inventory Limits\nAdded more slots to Enhancive Inventory\nMiscelaneous Formatting Fixes",
+        "coordinate": "B3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2023.1",
+        "coordinate": "A4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Further refinement to Enhancive Management, fixed some set commands\nSeveral VB Streamlining on the backend to ensure they work with sheet protections",
+        "coordinate": "B4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2022.1",
+        "coordinate": "A5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Completely Overhauled Enhancive Management, Implemented 3 Enhancive Sets\nAdded many VB functions for maximizing Stats, Clearing training Plans",
+        "coordinate": "B5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 G",
+        "coordinate": "A6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Adjusted Current Level Redux Equation to leverage Enhancives + Ascension\nFixed Armor Overtraining Benefits to actually scale properly",
+        "coordinate": "B6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 F",
+        "coordinate": "A7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Added Block % Equation, streamlined a few calcs",
+        "coordinate": "B7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 E",
+        "coordinate": "A8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixed Lookup Parry Equation Function\nFixed XP = Level equations\nMarked some sheets final, and more explicit WIPs",
+        "coordinate": "B8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 D",
+        "coordinate": "A9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixed Evade DS Calc",
+        "coordinate": "B9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 C",
+        "coordinate": "A10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Removed \"Post\" as an option under Target_Level and the associated TBL_EXP for calc purposes\nChanged zomfg calculations to reflect that... Seriously... Hundreds\nReconifigured layout of the Training Page to include an auto-fill placeholder\nFixed Ascension up to rank maximums to properly reflect 40/50\nUpdated how Total skill ranks are calculated that are boosted by both Ascension and Enhancive\nStreamlined and fixed all conditional formatting fror Trainer and DS Pages.\nFixed Mana Equation that got corrupted in the 2021 Version\nFixed Enhances section for regen/maxes.  I'll grow a regen section somewhere, I don't like it burried there\nEstablished Sheet level permissions on Trainer, Enhancive, DS, and Ascension pages",
+        "coordinate": "B10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 B",
+        "coordinate": "A11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixed corruption on the DS Page causing size to increase from 800 kb to 5 megs.\nFinished up the Defense Strength Calculations and Logic\nFixed all Redux Calculations\nSpruced up / finalized existing Ascension Page with conditional formatting/etc\nLaid Groundwork to remove POST level to just include solely the intraleveling post 100",
+        "coordinate": "B11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version 2021 A",
+        "coordinate": "A12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Rearranged the skills to reflect In Game\nLots of formatting corrections on the main Page\nLocked down permissions on the front page to make it easier to identify areas for data input\nAdded a lot of button controls to the Ascension Page.  Cleaned up formatting",
+        "coordinate": "B12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Q",
+        "coordinate": "A13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixed the x/level calc",
+        "coordinate": "B13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version P",
+        "coordinate": "A14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Updateed Redux for Enhancive evaluation",
+        "coordinate": "B14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Odin",
+        "coordinate": "A15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Updated Skill Costs and Limits per future state changes, Continued Fixing some DS calculations\nUpdated Redux Formulas based on new Information from Mark, rewrote formulas based on observational differences to align better with equations",
+        "coordinate": "B15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version M-N",
+        "coordinate": "A16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Internal, Not Released",
+        "coordinate": "B16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Verion Loki",
+        "coordinate": "A17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "DS Spreadsheet",
+        "coordinate": "B17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Kvasir",
+        "coordinate": "A18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixes on Bonus Calculation\u2026\nFixes on Mana Calculation\nStreamlining Inventory and Maximum Enhancement Identifiers\nIntegrated Enhancive Inventory into Trainer Sheet, Validated the Ascension Calculations\nFinalized the Enchanting Sheet.  Done\nInitial AS calculations.  Need to add in section for spell modifiers",
+        "coordinate": "B18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Jormungandr",
+        "coordinate": "A19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Fixed Rounding on Health/Stamina\nFixed conditions for initial stat placements warnings\nMinor enchanting calc update for Level+1",
+        "coordinate": "B19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Ichaival",
+        "coordinate": "A20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Added Enchanting/Ensorcelling power\nMaterial Listing established for staves, bows, armors, weapons, shields as separate tables\nFixed handling intra-level training with conventional training\nScript/Material List added",
+        "coordinate": "B20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Verion Hela",
+        "coordinate": "A21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Updated how Enhancive lookups work\u2026 no end user improvements, but omfg improvements..\nAdded in Weapon Table from Whirlin Weapon Comparison spreadsheet for selecting Weapon Type and Subtype.  Eventual data on AvD/etc\nContinued improvements to the Inventory Table\nCleaned up Total Calculations to better totals reflected in other columns\nFixed Calc for Health/Mana/Stamina\nAdded known Ascension Data and integrated into front page, freeing up a space for autofill in the VB release",
+        "coordinate": "B21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Version Gullveig",
+        "coordinate": "A22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Added Change log, set up a placeholder for Inventory",
+        "coordinate": "B22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ]
+  ],
+  "merged_cells": [],
+  "dimensions": {
+    "max_row": 22,
+    "max_column": 2
+  }
+}

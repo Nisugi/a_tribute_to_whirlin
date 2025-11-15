@@ -1,0 +1,4476 @@
+{
+  "name": "Ascension",
+  "rows": [
+    [
+      {
+        "value": 0,
+        "coordinate": "A1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": "Paladin",
+        "coordinate": "B1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "C1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": "Halfling",
+        "coordinate": "D1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "F1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "G1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "I1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "J1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "L1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "M1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "O1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": "Version 2025.1",
+        "coordinate": "P1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "R1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "S1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "T1",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      }
+    ],
+    [
+      {
+        "value": "Total Earned",
+        "coordinate": "A2",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": 5,
+        "coordinate": "B2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "C2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Milestones",
+        "coordinate": "D2",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "E2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "F2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "G2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "H2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "I2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "J2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "K2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "L2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "M2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "N2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "O2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "P2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "R2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "S2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T2",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Total Spent",
+        "coordinate": "A3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": 0,
+        "coordinate": "B3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "C3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "A Noble Effort\n(Reach Level 20)",
+        "coordinate": "D3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "TRUE",
+        "coordinate": "F3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Master of my Fate\n(Reach Level 60)",
+        "coordinate": "G3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "TRUE",
+        "coordinate": "I3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "A Grand Triumph\n(Reach Level 100)",
+        "coordinate": "J3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "TRUE",
+        "coordinate": "L3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "A Sacred Bond\n(Fully Bond with Holy Weapon)",
+        "coordinate": "M3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": false,
+        "coordinate": "O3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "All the World's a Stage\n(Acquire 10 RPAs)",
+        "coordinate": "P3",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": false,
+        "coordinate": "R3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "S3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T3",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Total Available",
+        "coordinate": "A4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": 5,
+        "coordinate": "B4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "C4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Great Expectations\n(Reach Level 40)",
+        "coordinate": "D4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "TRUE",
+        "coordinate": "F4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "High and Mighty\n(Reach Level 80)",
+        "coordinate": "G4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "TRUE",
+        "coordinate": "I4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Up to the Task\n(1,000,000 Bounty Points)",
+        "coordinate": "J4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": false,
+        "coordinate": "L4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Master of Your Craft\n(Master an Artisan Skill)",
+        "coordinate": "M4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": false,
+        "coordinate": "O4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Big Game Hunter\n(Kill Challenging Creature)",
+        "coordinate": "P4",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": false,
+        "coordinate": "R4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "S4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T4",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Stats",
+        "coordinate": "A5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "B5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "C5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Combat Skills",
+        "coordinate": "D5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "E5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "F5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Magic Skills",
+        "coordinate": "G5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "I5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Magic Lores",
+        "coordinate": "J5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "K5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "L5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "General Skill",
+        "coordinate": "M5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "O5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Resistances",
+        "coordinate": "P5",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "R5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "S5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T5",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "STR",
+        "coordinate": "A6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=10, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Armor Use",
+        "coordinate": "D6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Arcane Symbols",
+        "coordinate": "G6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elemental: Air",
+        "coordinate": "J6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Survival",
+        "coordinate": "M6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Acid",
+        "coordinate": "P6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q6",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T6",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "CON",
+        "coordinate": "A7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=10, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Shield Use",
+        "coordinate": "D7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Magic Item Use",
+        "coordinate": "G7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elemental: Earth",
+        "coordinate": "J7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Disarming Traps",
+        "coordinate": "M7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Cold",
+        "coordinate": "P7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q7",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T7",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "DEX",
+        "coordinate": "A8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=10, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Edged Weapons",
+        "coordinate": "D8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Spell Aiming",
+        "coordinate": "G8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elemental: Fire",
+        "coordinate": "J8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Picking Locks",
+        "coordinate": "M8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Disruption",
+        "coordinate": "P8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q8",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T8",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "AGL",
+        "coordinate": "A9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=10, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Blunt Weapons",
+        "coordinate": "D9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Harness Power",
+        "coordinate": "G9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elemental: Water",
+        "coordinate": "J9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Stalking and Hiding",
+        "coordinate": "M9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Electrical",
+        "coordinate": "P9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q9",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T9",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "DIS",
+        "coordinate": "A10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=13, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Two-Handed Weapons",
+        "coordinate": "D10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elemental Mana Control",
+        "coordinate": "G10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Spiritual: Blessings",
+        "coordinate": "J10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Perception",
+        "coordinate": "M10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Grapple",
+        "coordinate": "P10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q10",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T10",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "AUR",
+        "coordinate": "A11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=13, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Ranged Weapons",
+        "coordinate": "D11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Spirit Mana Control",
+        "coordinate": "G11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "H11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Spiritual: Religion",
+        "coordinate": "J11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Climbing",
+        "coordinate": "M11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Heat",
+        "coordinate": "P11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q11",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T11",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "LOG",
+        "coordinate": "A12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=40, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Thrown Weapons",
+        "coordinate": "D12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Mental Mana Control",
+        "coordinate": "G12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": 0,
+        "coordinate": "H12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Spiritual: Summoning",
+        "coordinate": "J12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Swimming",
+        "coordinate": "M12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Impact",
+        "coordinate": "P12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q12",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T12",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "INT",
+        "coordinate": "A13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=40, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Polearm Weapons",
+        "coordinate": "D13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Sorcerous: Demonology",
+        "coordinate": "J13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "First Aid",
+        "coordinate": "M13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Crush",
+        "coordinate": "P13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q13",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T13",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "WIS",
+        "coordinate": "A14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=40, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Brawling",
+        "coordinate": "D14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Sorcerous: Necromancy",
+        "coordinate": "J14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Trading",
+        "coordinate": "M14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Plasma",
+        "coordinate": "P14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q14",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T14",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "INF",
+        "coordinate": "A15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=40, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Two Weapon Combat",
+        "coordinate": "D15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Elite Ascension",
+        "coordinate": "G15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=3, tint=0.5999938962981048, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "I15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": "Mental: Divination",
+        "coordinate": "J15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Pickpocketing",
+        "coordinate": "M15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Puncture",
+        "coordinate": "P15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q15",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T15",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Health Regen",
+        "coordinate": "A16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Combat Maneuvers",
+        "coordinate": "D16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Transcend Destiny",
+        "coordinate": "G16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": 0,
+        "coordinate": "H16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "I16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Mental: Manipulation",
+        "coordinate": "J16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Porter",
+        "coordinate": "M16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "N16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "O16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Slash",
+        "coordinate": "P16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q16",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T16",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Mana Regen",
+        "coordinate": "A17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Multi-Opponent Combat",
+        "coordinate": "D17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Mental: Telepathy",
+        "coordinate": "J17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "M17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "O17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Steam",
+        "coordinate": "P17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q17",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T17",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Stamina Regen",
+        "coordinate": "A18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Ambush",
+        "coordinate": "D18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Mental: Transference",
+        "coordinate": "J18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "M18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "O18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Unbalance",
+        "coordinate": "P18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q18",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T18",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": "Spirit Regen",
+        "coordinate": "A19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "B19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "C19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Physical Fitness",
+        "coordinate": "D19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Mental: Transformation",
+        "coordinate": "J19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "K19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "L19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "M19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "O19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Vacuum",
+        "coordinate": "P19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q19",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T19",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": null,
+        "coordinate": "A20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "B20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "C20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Dodging",
+        "coordinate": "D20",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "E20",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "F20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "J20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "K20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "L20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "M20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "O20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": "Disintegration",
+        "coordinate": "P20",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": null
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=22, auto=None, theme=None, tint=0.0, type='indexed'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q20",
+        "font": {
+          "bold": true,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": 0,
+        "coordinate": "R20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T20",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": null,
+        "coordinate": "A21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "B21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "C21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "D21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "E21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "F21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "G21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "H21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "I21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "J21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "K21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "L21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "M21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "N21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "O21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "P21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "R21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "S21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T21",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ],
+    [
+      {
+        "value": null,
+        "coordinate": "A22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "B22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "C22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "D22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "E22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=0, tint=-0.249977111117893, type='theme'"
+      },
+      {
+        "value": null,
+        "coordinate": "F22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "G22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "H22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "I22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "J22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "K22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "L22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "M22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "N22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "O22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "P22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "Q22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "R22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "S22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      },
+      {
+        "value": null,
+        "coordinate": "T22",
+        "font": {
+          "bold": false,
+          "italic": false,
+          "color": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb=None, indexed=None, auto=None, theme=1, tint=0.0, type='theme'"
+        },
+        "fill": "<openpyxl.styles.colors.Color object>\nParameters:\nrgb='00000000', indexed=None, auto=None, theme=None, tint=0.0, type='rgb'"
+      }
+    ]
+  ],
+  "merged_cells": [
+    "P4:Q4",
+    "D2:R2",
+    "B3:C3",
+    "G15:I15",
+    "B2:C2",
+    "A5:C5",
+    "G5:I5",
+    "G3:H3",
+    "J4:K4",
+    "D5:F5",
+    "P5:R5",
+    "D4:E4",
+    "M3:N3",
+    "D3:E3",
+    "J5:L5",
+    "J3:K3",
+    "P3:Q3",
+    "G4:H4",
+    "M5:O5",
+    "M4:N4",
+    "B4:C4"
+  ],
+  "dimensions": {
+    "max_row": 22,
+    "max_column": 20
+  }
+}
