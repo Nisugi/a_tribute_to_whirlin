@@ -39,7 +39,9 @@ This is a static site - simply open `index.html` in a web browser to run locally
 
 ## Deployment
 
-Hosted via GitHub Pages at: [URL will be added after deployment]
+Hosted via GitHub Pages at: https://nisugi.github.io/a_tribute_to_whirlin/
+
+The site automatically deploys when changes are pushed to the master branch.
 
 ## Source
 
