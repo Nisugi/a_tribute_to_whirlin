@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --bg-parchment: #f4f1e8;
+  --surface: #fafaf9;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+}
+
+body {
+  background-color: var(--bg-parchment);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', Georgia, serif;
+}
