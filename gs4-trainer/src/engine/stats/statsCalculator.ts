@@ -4,6 +4,50 @@ import { ExcelFunctions } from '../lookups/ExcelFunctions';
 
 const STAT_NAMES: StatName[] = ['STR', 'CON', 'DEX', 'AGL', 'DIS', 'AUR', 'LOG', 'INT', 'WIS', 'INF'];
 
+const RACE_LOOKUP_OVERRIDES: Partial<Record<Race, string>> = {
+  'Dark Elf': 'Dark-Elf',
+  Sylvankind: 'Sylvan',
+};
+
+const normalizeLabel = (label: string | null | undefined): string =>
+  (label ?? '').toString().toLowerCase().replace(/[^a-z0-9]/g, '');
+
+function findLookupIndex(
+  value: string,
+  lookupValues: readonly string[],
+  overrides?: Partial<Record<string, string>>
+): number | null {
+  const candidates: string[] = [];
+
+  if (value) {
+    const overrideValue = overrides?.[value];
+    if (overrideValue) {
+      candidates.push(overrideValue);
+    }
+    candidates.push(value);
+  }
+
+  for (const candidate of candidates) {
+    const match = ExcelFunctions.MATCH(candidate, lookupValues as any[], 0);
+    if (match !== null) {
+      return match;
+    }
+  }
+
+  if (value) {
+    const normalized = normalizeLabel(value);
+    const fallbackIndex = lookupValues.findIndex(
+      (entry) => normalizeLabel(entry) === normalized
+    );
+
+    if (fallbackIndex >= 0) {
+      return fallbackIndex + 1;
+    }
+  }
+
+  return null;
+}
+
 /**
  * Calculate growth rate for a single stat based on profession and race.
  * Formula: INDEX(TBL_GI_PROF, row, professionCol) + INDEX(TBL_GI_RACE, row, raceCol)
@@ -18,8 +62,8 @@ export function calculateStatGrowthRate(stat: StatName, profession: Profession, 
   const statRowIndex = STAT_NAMES.indexOf(stat) + 2; // +2 because row 1 is headers, row 2 is STR
 
   // Find column index for profession and race
-  const professionCol = ExcelFunctions.MATCH(profession, TBL_Professions, 0);
-  const raceCol = ExcelFunctions.MATCH(race, TBL_Races, 0);
+  const professionCol = findLookupIndex(profession, TBL_Professions);
+  const raceCol = findLookupIndex(race, TBL_Races, RACE_LOOKUP_OVERRIDES);
 
   if (professionCol === null || raceCol === null) {
     throw new Error(`Invalid profession "${profession}" or race "${race}"`);
