@@ -12,6 +12,7 @@ import StatsView from './components/stats/StatsView';
 import SkillsView from './components/skills/SkillsView';
 import TrainingView from './components/training/TrainingView';
 import AscensionView from './components/ascension/AscensionView';
+import EnhancivesView from './components/enhancives/EnhancivesView';
 
 function App() {
   const loadCharacters = useCharacterStore((state) => state.loadCharacters);
@@ -42,13 +43,7 @@ function App() {
             {currentView === 'stats' && <StatsView />}
             {currentView === 'skills' && <SkillsView />}
             {currentView === 'training' && <TrainingView />}
-            {currentView === 'enhancives' && (
-              <div className="text-center py-12">
-                <h2 className="text-2xl font-bold text-gray-600">
-                  Enhancives - Coming Soon
-                </h2>
-              </div>
-            )}
+            {currentView === 'enhancives' && <EnhancivesView />}
             {currentView === 'ascension' && <AscensionView />}
             {currentView === 'calculators' && (
               <div className="text-center py-12">

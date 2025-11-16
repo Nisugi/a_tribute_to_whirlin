@@ -3,6 +3,7 @@
  */
 
 import { useCharacterStore } from '../../store/characterStore';
+import { useEnhanciveStore } from '../../store/enhanciveStore';
 import {
   calculateAllStatGrowthRates,
   getStatsAtLevel
@@ -30,6 +31,7 @@ const STAT_FULL_NAMES: Record<StatName, string> = {
 export default function StatsView() {
   const currentCharacter = useCharacterStore((state) => state.currentCharacter);
   const updateCharacter = useCharacterStore((state) => state.updateCharacter);
+  const enhanciveBonuses = useEnhanciveStore((state) => state.aggregatedBonuses);
 
   if (!currentCharacter) {
     return (
@@ -76,6 +78,11 @@ export default function StatsView() {
 
   const ascensionBonuses = currentCharacter.ascension?.bonuses;
   const totalAscensionBonus = STAT_NAMES.reduce((sum, stat) => sum + (ascensionBonuses?.[stat] ?? 0), 0);
+  const enhBaseBonuses = enhanciveBonuses.stats.base;
+  const enhBonusBonuses = enhanciveBonuses.stats.bonus;
+  const totalEnhBase = STAT_NAMES.reduce((sum, stat) => sum + (enhBaseBonuses[stat] ?? 0), 0);
+  const totalEnhBonusOnly = STAT_NAMES.reduce((sum, stat) => sum + (enhBonusBonuses[stat] ?? 0), 0);
+  const totalEnhanciveBonus = totalEnhBase + totalEnhBonusOnly;
   const baseStatSum = Object.values(currentCharacter.baseStats).reduce((sum, value) => sum + value, 0);
   const currentStatSum = STAT_NAMES.reduce((sum, stat) => sum + currentStats[stat], 0);
   const targetStatSum = STAT_NAMES.reduce((sum, stat) => sum + targetStats[stat], 0);
@@ -85,9 +92,13 @@ export default function StatsView() {
       <div className="bg-white rounded-lg shadow-lg p-8">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-3xl font-bold text-gray-900">Stats</h2>
-          <div className="text-sm text-gray-600">
+          <div className="text-sm text-gray-600 space-y-1 text-right">
             <div>Current Level: <span className="font-semibold">{currentCharacter.currentLevel}</span></div>
             <div>Target Level: <span className="font-semibold">{currentCharacter.targetLevel}</span></div>
+            <div>
+              Enhancive Bonus:{' '}
+              <span className="font-semibold text-purple-700">+{totalEnhanciveBonus}</span>
+            </div>
           </div>
         </div>
 
@@ -116,14 +127,17 @@ export default function StatsView() {
                 const gain = targetStat - currentStat;
                 const growthRate = growthRates[stat];
                 const ascBonus = ascensionBonuses?.[stat] ?? 0;
-                const totalBase = baseStat + ascBonus;
-                const totalCurrent = currentStat + ascBonus;
-                const totalTarget = targetStat + ascBonus;
+                const enhBase = enhBaseBonuses[stat] ?? 0;
+                const enhBonus = enhBonusBonuses[stat] ?? 0;
+                const totalBase = baseStat + ascBonus + enhBase;
+                const totalCurrent = currentStat + ascBonus + enhBase;
+                const totalTarget = targetStat + ascBonus + enhBase;
 
                 // Calculate bonuses
                 const baseBonus = calculateStatBonus(baseStat);
-                const currentBonus = calculateStatBonus(currentStat);
-                const targetBonus = calculateStatBonus(targetStat);
+                const totalBaseBonus = calculateStatBonus(totalBase) + enhBonus;
+                const totalCurrentBonus = calculateStatBonus(totalCurrent) + enhBonus;
+                const totalTargetBonus = calculateStatBonus(totalTarget) + enhBonus;
                 const totalGain = totalTarget - totalCurrent;
 
                 return (
@@ -150,14 +164,21 @@ export default function StatsView() {
                         <span className="text-sm text-gray-500">({baseBonus >= 0 ? '+' : ''}{baseBonus})</span>
                       </div>
                       <div className="text-xs text-gray-500 mt-1">
-                        Ascension: {ascBonus >= 0 ? `+${ascBonus}` : ascBonus} | Total: {totalBase}
+                        Total: {totalBase} | Bonus: {totalBaseBonus >= 0 ? `+${totalBaseBonus}` : totalBaseBonus}
+                      </div>
+                      <div className="text-[11px] text-gray-500">
+                        {ascBonus ? `Asc +${ascBonus}` : 'Asc +0'}
+                        {enhBase ? ` • Enh Base +${enhBase}` : ''}
+                        {enhBonus ? ` • Enh Bonus +${enhBonus}` : ''}
                       </div>
                     </td>
                     <td className="text-center py-3 px-4 font-semibold text-lg">
                       {totalCurrent}{' '}
-                      <span className="text-sm text-gray-600">({currentBonus >= 0 ? '+' : ''}{currentBonus})</span>
+                      <span className="text-sm text-gray-600">({totalCurrentBonus >= 0 ? '+' : ''}{totalCurrentBonus})</span>
                       <div className="text-xs text-gray-500">
                         Base {currentStat} + Asc {ascBonus >= 0 ? `+${ascBonus}` : ascBonus}
+                        {enhBase ? ` + Enh ${enhBase}` : ''}
+                        {enhBonus ? ` | Enh Bonus +${enhBonus}` : ''}
                       </div>
                     </td>
                     <td className="text-center py-3 px-4">
@@ -165,9 +186,11 @@ export default function StatsView() {
                     </td>
                     <td className="text-center py-3 px-4 font-semibold text-lg text-blue-600">
                       {totalTarget}{' '}
-                      <span className="text-sm text-gray-600">({targetBonus >= 0 ? '+' : ''}{targetBonus})</span>
+                      <span className="text-sm text-gray-600">({totalTargetBonus >= 0 ? '+' : ''}{totalTargetBonus})</span>
                       <div className="text-xs text-gray-500">
                         Base {targetStat} + Asc {ascBonus >= 0 ? `+${ascBonus}` : ascBonus}
+                        {enhBase ? ` + Enh ${enhBase}` : ''}
+                        {enhBonus ? ` | Enh Bonus +${enhBonus}` : ''}
                       </div>
                     </td>
                     <td className="text-center py-3 px-4">
@@ -188,22 +211,27 @@ export default function StatsView() {
               <tr className="bg-gray-100 border-t-2 border-gray-300 font-bold">
                 <td className="py-3 px-4">Total</td>
                 <td className="text-center py-3 px-4">
-                  <div>{baseStatSum + totalAscensionBonus}</div>
+                  <div>{baseStatSum + totalAscensionBonus + totalEnhBase}</div>
                   <div className="text-xs text-gray-500">
-                    Base {baseStatSum} + Asc {totalAscensionBonus}
+                    Base {baseStatSum} + Asc {totalAscensionBonus} + Enh Base {totalEnhBase}
                   </div>
+                  {totalEnhBonusOnly > 0 && (
+                    <div className="text-[11px] text-purple-700">
+                      Enh Bonus +{totalEnhBonusOnly}
+                    </div>
+                  )}
                 </td>
                 <td className="text-center py-3 px-4 text-lg">
-                  <div>{currentStatSum + totalAscensionBonus}</div>
+                  <div>{currentStatSum + totalAscensionBonus + totalEnhBase}</div>
                   <div className="text-xs text-gray-500">
-                    Base {currentStatSum} + Asc {totalAscensionBonus}
+                    Base {currentStatSum} + Asc {totalAscensionBonus} + Enh Base {totalEnhBase}
                   </div>
                 </td>
                 <td className="text-center py-3 px-4">-</td>
                 <td className="text-center py-3 px-4 text-lg text-blue-600">
-                  <div>{targetStatSum + totalAscensionBonus}</div>
+                  <div>{targetStatSum + totalAscensionBonus + totalEnhBase}</div>
                   <div className="text-xs text-gray-500">
-                    Base {targetStatSum} + Asc {totalAscensionBonus}
+                    Base {targetStatSum} + Asc {totalAscensionBonus} + Enh Base {totalEnhBase}
                   </div>
                 </td>
                 <td className="text-center py-3 px-4 text-green-600">

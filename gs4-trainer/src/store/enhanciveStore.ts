@@ -36,6 +36,7 @@ interface EnhanciveState {
   items: Record<string, EnhanciveItem>;
   sets: Record<string, EnhanciveSet>;
   activeSetId: string;
+  aggregatedBonuses: AggregatedEnhanciveBonuses;
   addItem: (item: EnhanciveItem) => void;
   updateItem: (id: string, updates: Partial<EnhanciveItem>) => void;
   removeItem: (id: string) => void;
@@ -54,6 +55,20 @@ const ensureSetSlot = (set: EnhanciveSet, slot: EnhanciveSlot) => {
   }
 };
 
+function emptyAggregatedBonuses(): AggregatedEnhanciveBonuses {
+  return {
+    stats: {
+      base: { ...EMPTY_STATS },
+      bonus: { ...EMPTY_STATS },
+    },
+    skills: {},
+  };
+}
+
+const recalcBonuses = (state: EnhanciveState) => {
+  state.aggregatedBonuses = getActiveEnhanciveBonuses(state);
+};
+
 export const useEnhanciveStore = create<EnhanciveState>()(
   immer((set) => ({
     subscriptionTier: 'prime',
@@ -66,16 +81,19 @@ export const useEnhanciveStore = create<EnhanciveState>()(
       },
     },
     activeSetId: DEFAULT_SET_ID,
+    aggregatedBonuses: emptyAggregatedBonuses(),
 
     addItem: (item) =>
       set((state) => {
         state.items[item.id] = item;
+        recalcBonuses(state as EnhanciveState);
       }),
 
     updateItem: (id, updates) =>
       set((state) => {
         if (state.items[id]) {
           state.items[id] = { ...state.items[id], ...updates };
+          recalcBonuses(state as EnhanciveState);
         }
       }),
 
@@ -87,6 +105,7 @@ export const useEnhanciveStore = create<EnhanciveState>()(
             setDef.equipped[slot] = setDef.equipped[slot].filter((itemId) => itemId !== id);
           }
         });
+        recalcBonuses(state as EnhanciveState);
       }),
 
     addSet: (name) => {
@@ -111,6 +130,7 @@ export const useEnhanciveStore = create<EnhanciveState>()(
         if (state.activeSetId === id) {
           state.activeSetId = DEFAULT_SET_ID;
         }
+        recalcBonuses(state as EnhanciveState);
       }),
 
     setActiveSet: (id) =>
@@ -133,6 +153,7 @@ export const useEnhanciveStore = create<EnhanciveState>()(
         if (current.includes(itemId)) return;
         if (current.length >= limit) return;
         current.push(itemId);
+        recalcBonuses(state as EnhanciveState);
       }),
 
     removeItemFromSlot: (setId, slot, itemId) =>
@@ -140,6 +161,7 @@ export const useEnhanciveStore = create<EnhanciveState>()(
         const setDef = state.sets[setId];
         if (!setDef?.equipped[slot]) return;
         setDef.equipped[slot] = setDef.equipped[slot].filter((id) => id !== itemId);
+        recalcBonuses(state as EnhanciveState);
       }),
 
     setSubscriptionTier: (tier) =>
@@ -153,6 +175,7 @@ export const useEnhanciveStore = create<EnhanciveState>()(
             active.equipped[slot] = active.equipped[slot].slice(0, limit);
           }
         }
+        recalcBonuses(state as EnhanciveState);
       }),
   }))
 );

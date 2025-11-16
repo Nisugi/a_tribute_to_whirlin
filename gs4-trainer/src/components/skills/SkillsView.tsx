@@ -5,6 +5,7 @@
 import { useMemo, useState } from 'react';
 import { useCharacterStore } from '../../store/characterStore';
 import { useUIStore } from '../../store/uiStore';
+import { useEnhanciveStore } from '../../store/enhanciveStore';
 import {
   SKILLS,
   SKILL_CATEGORIES,
@@ -34,6 +35,7 @@ export default function SkillsView() {
   const showEmptySkills = useUIStore((state) => state.showEmptySkills);
   const toggleShowEmptySkills = useUIStore((state) => state.toggleShowEmptySkills);
   const [selectedCategory, setSelectedCategory] = useState<SkillCategory>(defaultCategory);
+  const enhanciveBonuses = useEnhanciveStore((state) => state.aggregatedBonuses);
 
   if (!currentCharacter) {
     return (
@@ -62,6 +64,11 @@ export default function SkillsView() {
     () => Array.from(ascensionSkillBonuses.values()).reduce((sum, value) => sum + value, 0),
     [ascensionSkillBonuses]
   );
+  const enhSkillBonuses = enhanciveBonuses.skills;
+  const totalEnhBonus = useMemo(
+    () => Object.values(enhSkillBonuses).reduce((sum, entry) => sum + entry.bonus, 0),
+    [enhSkillBonuses]
+  );
 
   const trainedSkillCount = useMemo(() => {
     let total = 0;
@@ -84,19 +91,22 @@ export default function SkillsView() {
     let baseCurrent = 0;
     let baseTarget = 0;
     let ascension = 0;
+    let enhancive = 0;
 
     for (const skill of categorySkills) {
       baseCurrent += training[skill.index]?.currentRanks ?? 0;
       baseTarget += training[skill.index]?.targetRanks ?? 0;
       ascension += ascensionSkillBonuses.get(skill.index) ?? 0;
+      enhancive += enhSkillBonuses[skill.id]?.bonus ?? 0;
     }
 
     return {
       baseCurrent,
       baseTarget,
       ascensionBonus: ascension,
+      enhanciveBonus: enhancive,
     };
-  }, [categorySkills, training, ascensionSkillBonuses]);
+  }, [categorySkills, training, ascensionSkillBonuses, enhSkillBonuses]);
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">
@@ -105,7 +115,7 @@ export default function SkillsView() {
           <div>
             <h2 className="text-3xl font-bold text-gray-900">Skills Overview</h2>
             <p className="text-sm text-gray-600 mt-1">
-              Combined skill ranks from base training, ascension abilities, and (soon) enhancives.
+              Combined skill ranks from base training, ascension abilities, and enhancives.
             </p>
           </div>
           <button
@@ -116,7 +126,7 @@ export default function SkillsView() {
           </button>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3 mt-6">
+        <div className="grid gap-4 sm:grid-cols-4 mt-6">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
             <div className="text-xs uppercase text-gray-500">Active Skills</div>
             <div className="text-3xl font-semibold text-gray-900">{trainedSkillCount}</div>
@@ -128,12 +138,17 @@ export default function SkillsView() {
             <p className="text-xs text-gray-500 mt-1">Bonus points granted via ascension</p>
           </div>
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+            <div className="text-xs uppercase text-gray-500">Enhancive Bonus</div>
+            <div className="text-3xl font-semibold text-emerald-700">+{totalEnhBonus}</div>
+            <p className="text-xs text-gray-500 mt-1">Bonus points from equipped enhancives</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
             <div className="text-xs uppercase text-gray-500">Category Focus</div>
             <div className="text-lg font-semibold text-gray-900">
               {SKILL_CATEGORIES[selectedCategory]}
             </div>
             <p className="text-xs text-gray-500 mt-1">
-              {formatNumber(categoryRollup.baseCurrent)} base ranks • +{categoryRollup.ascensionBonus} ascension bonus
+              {formatNumber(categoryRollup.baseCurrent)} base ranks • +{categoryRollup.ascensionBonus} asc • +{categoryRollup.enhanciveBonus} enh
             </p>
           </div>
         </div>
@@ -174,14 +189,18 @@ export default function SkillsView() {
                 const baseCurrent = training[skill.index]?.currentRanks ?? 0;
                 const baseTarget = training[skill.index]?.targetRanks ?? 0;
                 const ascensionBonus = ascensionSkillBonuses.get(skill.index) ?? 0;
-                const currentBonus = calculateSkillBonusFromRanks(baseCurrent) + ascensionBonus;
-                const targetBonus = calculateSkillBonusFromRanks(baseTarget) + ascensionBonus;
+                const enhEntry = enhSkillBonuses[skill.id];
+                const enhBonus = enhEntry?.bonus ?? 0;
+                const enhRanks = enhEntry?.ranksFromEnhancives ?? 0;
+                const currentBonus = calculateSkillBonusFromRanks(baseCurrent) + ascensionBonus + enhBonus;
+                const targetBonus = calculateSkillBonusFromRanks(baseTarget) + ascensionBonus + enhBonus;
                 const belowTarget = baseCurrent < baseTarget;
                 const shouldRender =
                   showEmptySkills ||
                   baseCurrent > 0 ||
                   baseTarget > 0 ||
-                  ascensionBonus > 0;
+                  ascensionBonus > 0 ||
+                  enhBonus > 0;
 
                 if (!shouldRender) {
                   return null;
@@ -207,7 +226,7 @@ export default function SkillsView() {
                     <td className="text-center py-3 px-4">
                       <div className="text-lg font-semibold text-gray-900">{currentBonus}</div>
                       <div className="text-xs text-gray-500">
-                        {calculateSkillBonusFromRanks(baseCurrent)} base + {ascensionBonus} asc
+                        {calculateSkillBonusFromRanks(baseCurrent)} base + {ascensionBonus} asc + {enhBonus} enh
                       </div>
                     </td>
                     <td className="text-center py-3 px-4">
@@ -219,7 +238,7 @@ export default function SkillsView() {
                     <td className="text-center py-3 px-4">
                       <div className="text-lg font-semibold text-gray-900">{targetBonus}</div>
                       <div className="text-xs text-gray-500">
-                        {calculateSkillBonusFromRanks(baseTarget)} base + {ascensionBonus} asc
+                        {calculateSkillBonusFromRanks(baseTarget)} base + {ascensionBonus} asc + {enhBonus} enh
                       </div>
                     </td>
                     <td className="text-center py-3 px-4">
@@ -230,7 +249,14 @@ export default function SkillsView() {
                       )}
                     </td>
                     <td className="text-center py-3 px-4">
-                      <span className="text-xs text-gray-400">Pending (Enhancives)</span>
+                      {enhBonus > 0 ? (
+                        <div className="text-sm font-semibold text-emerald-700">
+                          +{enhBonus} bonus
+                          {enhRanks > 0 && <span className="text-xs text-gray-500 block">(≈ {enhRanks} ranks)</span>}
+                        </div>
+                      ) : (
+                        <span className="text-xs text-gray-400">None</span>
+                      )}
                     </td>
                   </tr>
                 );
