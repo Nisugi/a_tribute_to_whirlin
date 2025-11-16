@@ -189,7 +189,7 @@ export default function TrainingView() {
   const parentIndex = hasSharedPool ? categorySkills[0].parentIndex : null;
 
   const combinedRanksInfo = useMemo(() => {
-    if (!hasSharedPool || parentIndex === null) return null;
+    if (!hasSharedPool || parentIndex === null || parentIndex === undefined) return null;
 
     // Calculate total target ranks across all sub-skills
     const totalTargetRanks = categorySkills.reduce((sum, skill) => {
@@ -197,8 +197,8 @@ export default function TrainingView() {
       return sum + (skillData.targetRanks || 0);
     }, 0);
 
-    // Get max ranks for the parent
-    const maxCombined = getMaxRanksForParent(parentIndex, currentCharacter.profession, currentCharacter.targetLevel);
+    // Get max ranks for the parent (TypeScript knows parentIndex is a number here)
+    const maxCombined = getMaxRanksForParent(parentIndex as number, currentCharacter.profession, currentCharacter.targetLevel);
 
     return {
       totalTargetRanks,

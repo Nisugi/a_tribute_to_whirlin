@@ -262,6 +262,7 @@ export async function importFromExcel(file: File): Promise<ExcelImportResult> {
       profession,
       race,
       currentXP,
+      ascensionXP: 0, // Default to 0, will be calculated from total XP if needed
       currentLevel: targetLevel, // Using target level as current for now
       targetXP: 0, // Default to 0, user can update for post-100 calculations
       targetLevel,

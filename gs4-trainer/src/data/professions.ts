@@ -95,14 +95,6 @@ export const PROFESSION_DATA: Record<Profession, ProfessionInfo> = {
     strengths: ['Combat', 'Divine magic', 'Smiting', 'Protection'],
     trainingCosts: 'Semi',
   },
-  Savant: {
-    id: 'Savant',
-    name: 'Savant',
-    description: 'Versatile hybrids balancing mental and physical disciplines.',
-    primeStats: ['WIS', 'INT', 'DIS'],
-    strengths: ['Versatility', 'Mental magic', 'Skill variety', 'Adaptation'],
-    trainingCosts: 'Profession-specific',
-  },
 };
 
 export const PROFESSIONS_LIST = Object.values(PROFESSION_DATA);
