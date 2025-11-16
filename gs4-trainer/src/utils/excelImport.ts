@@ -17,6 +17,7 @@ import type {
   StatGrowthRates,
 } from '../types';
 import { SKILLS } from '../data/skills';
+import { createDefaultMilestones } from '../engine/ascension/milestoneTracker';
 
 /**
  * Cell reference helper
@@ -174,19 +175,17 @@ function extractTrainingPlan(sheet: XLSX.WorkSheet): TrainingPlan {
  */
 function extractAscensionData(workbook: XLSX.WorkBook): AscensionData {
   const sheet = workbook.Sheets['Ascension'];
+  const defaultBonuses: Stats = {
+    STR: 0, CON: 0, DEX: 0, AGL: 0, DIS: 0,
+    AUR: 0, LOG: 0, INT: 0, WIS: 0, INF: 0,
+  };
 
   if (!sheet) {
     return {
       totalExperience: 0,
-      milestones: {
-        firstAscension: false,
-        secondAscension: false,
-        thirdAscension: false,
-      },
-      bonuses: {
-        STR: 0, CON: 0, DEX: 0, AGL: 0, DIS: 0,
-        AUR: 0, LOG: 0, INT: 0, WIS: 0, INF: 0,
-      },
+      milestones: createDefaultMilestones(),
+      bonuses: defaultBonuses,
+      selectedAbilities: [],
     };
   }
 
@@ -195,12 +194,9 @@ function extractAscensionData(workbook: XLSX.WorkBook): AscensionData {
 
   return {
     totalExperience: getCellValue(sheet, 'B3') ?? 0,
-    milestones: {
-      firstAscension: getCellValue(sheet, 'L4') === 'True',
-      secondAscension: getCellValue(sheet, 'O4') === 'True',
-      thirdAscension: getCellValue(sheet, 'R4') === 'True',
-    },
+    milestones: createDefaultMilestones(),
     bonuses,
+    selectedAbilities: [],
   };
 }
 

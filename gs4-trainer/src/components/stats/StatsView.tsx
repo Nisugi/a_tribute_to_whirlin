@@ -74,6 +74,12 @@ export default function StatsView() {
     currentCharacter.targetLevel
   );
 
+  const ascensionBonuses = currentCharacter.ascension?.bonuses;
+  const totalAscensionBonus = STAT_NAMES.reduce((sum, stat) => sum + (ascensionBonuses?.[stat] ?? 0), 0);
+  const baseStatSum = Object.values(currentCharacter.baseStats).reduce((sum, value) => sum + value, 0);
+  const currentStatSum = STAT_NAMES.reduce((sum, stat) => sum + currentStats[stat], 0);
+  const targetStatSum = STAT_NAMES.reduce((sum, stat) => sum + targetStats[stat], 0);
+
   return (
     <div className="max-w-6xl mx-auto">
       <div className="bg-white rounded-lg shadow-lg p-8">
@@ -109,11 +115,16 @@ export default function StatsView() {
                 const targetStat = targetStats[stat];
                 const gain = targetStat - currentStat;
                 const growthRate = growthRates[stat];
+                const ascBonus = ascensionBonuses?.[stat] ?? 0;
+                const totalBase = baseStat + ascBonus;
+                const totalCurrent = currentStat + ascBonus;
+                const totalTarget = targetStat + ascBonus;
 
                 // Calculate bonuses
                 const baseBonus = calculateStatBonus(baseStat);
                 const currentBonus = calculateStatBonus(currentStat);
                 const targetBonus = calculateStatBonus(targetStat);
+                const totalGain = totalTarget - totalCurrent;
 
                 return (
                   <tr
@@ -138,22 +149,36 @@ export default function StatsView() {
                         />
                         <span className="text-sm text-gray-500">({baseBonus >= 0 ? '+' : ''}{baseBonus})</span>
                       </div>
+                      <div className="text-xs text-gray-500 mt-1">
+                        Ascension: {ascBonus >= 0 ? `+${ascBonus}` : ascBonus} | Total: {totalBase}
+                      </div>
                     </td>
                     <td className="text-center py-3 px-4 font-semibold text-lg">
-                      {currentStat} <span className="text-sm text-gray-600">({currentBonus >= 0 ? '+' : ''}{currentBonus})</span>
+                      {totalCurrent}{' '}
+                      <span className="text-sm text-gray-600">({currentBonus >= 0 ? '+' : ''}{currentBonus})</span>
+                      <div className="text-xs text-gray-500">
+                        Base {currentStat} + Asc {ascBonus >= 0 ? `+${ascBonus}` : ascBonus}
+                      </div>
                     </td>
                     <td className="text-center py-3 px-4">
                       <span className="text-sm text-gray-600">{growthRate}</span>
                     </td>
                     <td className="text-center py-3 px-4 font-semibold text-lg text-blue-600">
-                      {targetStat} <span className="text-sm text-gray-600">({targetBonus >= 0 ? '+' : ''}{targetBonus})</span>
+                      {totalTarget}{' '}
+                      <span className="text-sm text-gray-600">({targetBonus >= 0 ? '+' : ''}{targetBonus})</span>
+                      <div className="text-xs text-gray-500">
+                        Base {targetStat} + Asc {ascBonus >= 0 ? `+${ascBonus}` : ascBonus}
+                      </div>
                     </td>
                     <td className="text-center py-3 px-4">
                       {gain > 0 ? (
                         <span className="text-green-600 font-semibold">+{gain}</span>
                       ) : (
-                        <span className="text-gray-400">—</span>
+                        <span className="text-gray-400">-</span>
                       )}
+                      <div className="text-xs text-gray-500">
+                        Total: {totalGain >= 0 ? `+${totalGain}` : totalGain}
+                      </div>
                     </td>
                   </tr>
                 );
@@ -163,14 +188,23 @@ export default function StatsView() {
               <tr className="bg-gray-100 border-t-2 border-gray-300 font-bold">
                 <td className="py-3 px-4">Total</td>
                 <td className="text-center py-3 px-4">
-                  {Object.values(currentCharacter.baseStats).reduce((sum, val) => sum + val, 0)}
+                  <div>{baseStatSum + totalAscensionBonus}</div>
+                  <div className="text-xs text-gray-500">
+                    Base {baseStatSum} + Asc {totalAscensionBonus}
+                  </div>
                 </td>
                 <td className="text-center py-3 px-4 text-lg">
-                  {STAT_NAMES.reduce((sum, stat) => sum + currentStats[stat], 0)}
+                  <div>{currentStatSum + totalAscensionBonus}</div>
+                  <div className="text-xs text-gray-500">
+                    Base {currentStatSum} + Asc {totalAscensionBonus}
+                  </div>
                 </td>
-                <td className="text-center py-3 px-4">—</td>
+                <td className="text-center py-3 px-4">-</td>
                 <td className="text-center py-3 px-4 text-lg text-blue-600">
-                  {STAT_NAMES.reduce((sum, stat) => sum + targetStats[stat], 0)}
+                  <div>{targetStatSum + totalAscensionBonus}</div>
+                  <div className="text-xs text-gray-500">
+                    Base {targetStatSum} + Asc {totalAscensionBonus}
+                  </div>
                 </td>
                 <td className="text-center py-3 px-4 text-green-600">
                   +{STAT_NAMES.reduce((sum, stat) => sum + (targetStats[stat] - currentStats[stat]), 0)}

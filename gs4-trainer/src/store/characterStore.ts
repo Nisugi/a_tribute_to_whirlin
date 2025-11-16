@@ -5,9 +5,33 @@
 
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
-import type { Character, StatName, StatGrowthRates } from '../types';
+import type { Character, StatName, StatGrowthRates, Stats, AscensionData } from '../types';
 import { db } from '../utils/db';
 import { calculateAllStatGrowthRates } from '../engine/stats/statsCalculator';
+import { createDefaultMilestones } from '../engine/ascension/milestoneTracker';
+
+const ZERO_STATS: Stats = {
+  STR: 0, CON: 0, DEX: 0, AGL: 0, DIS: 0,
+  AUR: 0, LOG: 0, INT: 0, WIS: 0, INF: 0,
+};
+
+const normalizeAscensionData = (ascension?: Partial<AscensionData>): AscensionData => ({
+  totalExperience: ascension?.totalExperience ?? 0,
+  milestones: {
+    ...createDefaultMilestones(),
+    ...(ascension?.milestones ?? {}),
+  },
+  selectedAbilities: ascension?.selectedAbilities ?? [],
+  bonuses: {
+    ...ZERO_STATS,
+    ...(ascension?.bonuses ?? {}),
+  },
+});
+
+const normalizeCharacter = (character: Character): Character => ({
+  ...character,
+  ascension: normalizeAscensionData(character.ascension),
+});
 
 interface CharacterState {
   // Current active character
@@ -53,13 +77,14 @@ export const useCharacterStore = create<CharacterState>()(
       set({ isLoading: true, error: null });
       try {
         const characters = await db.getAllCharacters();
-        console.log('[CharacterStore] Loaded characters from DB:', characters);
-        set({ characters, isLoading: false });
+        const normalizedCharacters = characters.map((character) => normalizeCharacter(character));
+        console.log('[CharacterStore] Loaded characters from DB:', normalizedCharacters);
+        set({ characters: normalizedCharacters, isLoading: false });
 
         // If there's only one character, set it as current
-        if (characters.length === 1 && !get().currentCharacter) {
-          console.log('[CharacterStore] Setting current character:', characters[0]);
-          set({ currentCharacter: characters[0] });
+        if (normalizedCharacters.length === 1 && !get().currentCharacter) {
+          console.log('[CharacterStore] Setting current character:', normalizedCharacters[0]);
+          set({ currentCharacter: normalizedCharacters[0] });
         }
       } catch (error) {
         console.error('[CharacterStore] Failed to load characters:', error);
@@ -106,18 +131,7 @@ export const useCharacterStore = create<CharacterState>()(
         },
         statGrowthRates: data.statGrowthRates || statGrowthRates,
         training: data.training || {},
-        ascension: data.ascension || {
-          totalExperience: 0,
-          milestones: {
-            firstAscension: false,
-            secondAscension: false,
-            thirdAscension: false,
-          },
-          bonuses: {
-            STR: 0, CON: 0, DEX: 0, AGL: 0, DIS: 0,
-            AUR: 0, LOG: 0, INT: 0, WIS: 0, INF: 0,
-          },
-        },
+        ascension: normalizeAscensionData(data.ascension),
         enhanciveSetId: data.enhanciveSetId || null,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -170,6 +184,7 @@ export const useCharacterStore = create<CharacterState>()(
     importCharacter: async (importedData) => {
       const character: Character = {
         ...importedData,
+        ascension: normalizeAscensionData(importedData.ascension),
         id: crypto.randomUUID(),
         createdAt: new Date(),
         updatedAt: new Date(),

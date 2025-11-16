@@ -5,6 +5,10 @@
 import { useState, useEffect } from 'react';
 import { useCharacterStore } from '../../store/characterStore';
 import CharacterWizard from './CharacterWizard';
+import MilestoneTracker from '../ascension/MilestoneTracker';
+import { calculateEarnedATPs, calculateRemainingAEXP, calculateATPProgress, formatAEXP, calculateTotalATPs } from '../../engine/ascension/atpCalculator';
+import { calculateMilestoneATPs } from '../../engine/ascension/milestoneTracker';
+import type { StatName } from '../../types';
 
 export default function CharacterView() {
   const [showWizard, setShowWizard] = useState(false);
@@ -27,6 +31,10 @@ export default function CharacterView() {
       setAscensionXPInput(currentCharacter.ascensionXP ?? 0);
     }
   }, [currentCharacter]);
+
+  const statEntries = currentCharacter
+    ? (Object.entries(currentCharacter.baseStats) as Array<[StatName, number]>)
+    : [];
 
   const handleDeleteCharacter = async () => {
     if (!currentCharacter) return;
@@ -237,6 +245,33 @@ export default function CharacterView() {
               }}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
             />
+            <div className="mt-2">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-sm font-medium text-purple-700">
+                  {calculateEarnedATPs(currentCharacter.ascensionXP ?? 0)} Earned ATPs
+                </span>
+                <span className="text-xs text-gray-500">
+                  {formatAEXP(calculateRemainingAEXP(currentCharacter.ascensionXP ?? 0))} to next
+                </span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2 mb-2">
+                <div
+                  className="bg-purple-600 h-2 rounded-full transition-all duration-300"
+                  style={{ width: `${calculateATPProgress(currentCharacter.ascensionXP ?? 0)}%` }}
+                ></div>
+              </div>
+              <div className="flex justify-between items-center text-xs">
+                    <span className="text-gray-600">
+                  +{calculateMilestoneATPs(currentCharacter.ascension.milestones)} Milestone ATPs
+                </span>
+                <span className="font-semibold text-purple-800">
+                  = {calculateTotalATPs(
+                    calculateEarnedATPs(currentCharacter.ascensionXP ?? 0),
+                    calculateMilestoneATPs(currentCharacter.ascension.milestones)
+                  )} Total ATPs
+                </span>
+              </div>
+            </div>
           </div>
 
           <div>
@@ -253,15 +288,27 @@ export default function CharacterView() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Stats (Level 0)</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {Object.entries(currentCharacter.baseStats).map(([stat, value]) => {
+            {statEntries.map(([stat, value]) => {
+              const ascBonus = currentCharacter.ascension?.bonuses?.[stat] ?? 0;
+              const totalValue = value + ascBonus;
               return (
-                <div key={stat} className="bg-gray-50 rounded-lg p-4 text-center">
+                <div key={stat} className="bg-gray-50 rounded-lg p-4 text-center border border-gray-200">
                   <div className="text-sm text-gray-600 font-medium mb-1">{stat}</div>
-                  <div className="text-3xl font-bold text-primary">{value}</div>
+                  <div className="text-3xl font-bold text-primary">{totalValue}</div>
+                  <div className="text-xs text-gray-500 mt-1">
+                    Base {value}{' '}
+                    {ascBonus > 0 && (
+                      <span className="text-purple-700 font-semibold">+{ascBonus} Asc</span>
+                    )}
+                  </div>
                 </div>
               );
             })}
           </div>
+        </div>
+
+        <div className="mt-8">
+          <MilestoneTracker />
         </div>
       </div>
     </div>

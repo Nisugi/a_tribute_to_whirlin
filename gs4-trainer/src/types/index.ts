@@ -190,14 +190,32 @@ export type TrainingPlan = Record<number, SkillRanks>;
 // ASCENSION DATA STRUCTURES
 // ============================================================================
 
+export interface AscensionMilestones {
+  // Level milestones (each grants 1 ATP)
+  level20: boolean;
+  level40: boolean;
+  level60: boolean;
+  level80: boolean;
+  level100: boolean;
+
+  // Achievement milestones (each grants 1 ATP)
+  bountyPoints: boolean;      // 1,000,000 Bounty Points
+  artisanGuild: boolean;       // Artisan Guild Mastery
+  classSpecific1: boolean;     // Class-specific achievement 1
+  classSpecific2: boolean;     // Class-specific achievement 2
+  classSpecific3: boolean;     // Class-specific achievement 3
+}
+
+export interface AscensionAbilitySelection {
+  abilityId: string;           // Unique ID of the ascension ability
+  ranks: number;               // Number of ranks in this ability
+}
+
 export interface AscensionData {
   totalExperience: number;
-  milestones: {
-    firstAscension: boolean;
-    secondAscension: boolean;
-    thirdAscension: boolean;
-  };
-  bonuses: Stats;
+  milestones: AscensionMilestones;
+  selectedAbilities: AscensionAbilitySelection[];  // Selected Common/Elite/Legendary abilities
+  bonuses: Stats;              // Calculated stat bonuses from abilities
 }
 
 // ============================================================================

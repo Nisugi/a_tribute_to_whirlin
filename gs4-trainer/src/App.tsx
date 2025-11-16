@@ -10,6 +10,7 @@ import Sidebar from './components/shared/Sidebar';
 import CharacterView from './components/character/CharacterView';
 import StatsView from './components/stats/StatsView';
 import TrainingView from './components/training/TrainingView';
+import AscensionView from './components/ascension/AscensionView';
 
 function App() {
   const loadCharacters = useCharacterStore((state) => state.loadCharacters);
@@ -46,13 +47,7 @@ function App() {
                 </h2>
               </div>
             )}
-            {currentView === 'ascension' && (
-              <div className="text-center py-12">
-                <h2 className="text-2xl font-bold text-gray-600">
-                  Ascension - Coming Soon
-                </h2>
-              </div>
-            )}
+            {currentView === 'ascension' && <AscensionView />}
             {currentView === 'calculators' && (
               <div className="text-center py-12">
                 <h2 className="text-2xl font-bold text-gray-600">
