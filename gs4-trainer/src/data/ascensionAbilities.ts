@@ -39,7 +39,8 @@ export interface AscensionAbility {
   rankCostOverrides?: number[];
 }
 
-const sanitizeId = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '');
+export const normalizeAbilityId = (value: string) =>
+  value.toLowerCase().replace(/[^a-z0-9]/g, '');
 
 const createStatAbility = (id: string, stat: StatName, name: string): AscensionAbility => ({
   id,
@@ -54,7 +55,7 @@ const createStatAbility = (id: string, stat: StatName, name: string): AscensionA
 });
 
 const createSkillAbility = (name: string): AscensionAbility => {
-  const id = sanitizeId(name);
+  const id = normalizeAbilityId(name);
   return {
     id,
     mnemonic: id,
@@ -68,7 +69,7 @@ const createSkillAbility = (name: string): AscensionAbility => {
 };
 
 const createResistAbility = (name: string): AscensionAbility => {
-  const id = sanitizeId(name);
+  const id = normalizeAbilityId(name);
   return {
     id,
     mnemonic: id,
@@ -82,7 +83,7 @@ const createResistAbility = (name: string): AscensionAbility => {
 };
 
 const createRegenAbility = (name: string): AscensionAbility => {
-  const id = sanitizeId(name);
+  const id = normalizeAbilityId(name);
   return {
     id,
     mnemonic: id,

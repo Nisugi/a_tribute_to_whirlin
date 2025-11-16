@@ -6,7 +6,15 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-type ViewType = 'character' | 'stats' | 'training' | 'enhancives' | 'ascension' | 'calculators' | 'tables';
+type ViewType =
+  | 'character'
+  | 'stats'
+  | 'skills'
+  | 'training'
+  | 'enhancives'
+  | 'ascension'
+  | 'calculators'
+  | 'tables';
 
 interface UIState {
   // Current view

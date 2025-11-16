@@ -9,6 +9,7 @@ import Header from './components/shared/Header';
 import Sidebar from './components/shared/Sidebar';
 import CharacterView from './components/character/CharacterView';
 import StatsView from './components/stats/StatsView';
+import SkillsView from './components/skills/SkillsView';
 import TrainingView from './components/training/TrainingView';
 import AscensionView from './components/ascension/AscensionView';
 
@@ -39,6 +40,7 @@ function App() {
           <div className="container mx-auto px-4 py-6 max-w-7xl">
             {currentView === 'character' && <CharacterView />}
             {currentView === 'stats' && <StatsView />}
+            {currentView === 'skills' && <SkillsView />}
             {currentView === 'training' && <TrainingView />}
             {currentView === 'enhancives' && (
               <div className="text-center py-12">

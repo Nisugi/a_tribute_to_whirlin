@@ -222,20 +222,62 @@ export interface AscensionData {
 // ENHANCIVE DATA STRUCTURES
 // ============================================================================
 
+export type SubscriptionTier = 'prime' | 'premium' | 'platinum';
+
+export type EnhanciveSlot =
+  | 'pin'
+  | 'head'
+  | 'hair'
+  | 'ear_single'
+  | 'ear_multiple'
+  | 'neck'
+  | 'shoulder'
+  | 'shoulders'
+  | 'back'
+  | 'front'
+  | 'chest'
+  | 'arms'
+  | 'wrist'
+  | 'hands'
+  | 'finger'
+  | 'waist'
+  | 'belt'
+  | 'legs'
+  | 'ankle'
+  | 'feet'
+  | 'battle_standard'
+  | 'other';
+
+export type EnhanciveStatProperty = {
+  kind: 'stat';
+  stat: StatName;
+  mode: 'base' | 'bonus';
+  value: number;
+};
+
+export type EnhanciveSkillProperty = {
+  kind: 'skill';
+  skillId: string;
+  mode: 'bonus' | 'ranks';
+  value: number;
+};
+
+export type EnhanciveProperty = EnhanciveStatProperty | EnhanciveSkillProperty;
+
 export interface EnhanciveItem {
   id: string;
   name: string;
-  slot: string;
-  bonuses: Partial<Stats>;
-  cost?: number;
+  slot: EnhanciveSlot;
+  properties: EnhanciveProperty[];
+  charges?: number;
   notes?: string;
+  isFunctional: boolean;
 }
 
 export interface EnhanciveSet {
   id: string;
   name: string;
-  items: EnhanciveItem[];
-  totalBonuses: Stats;
+  equipped: Record<EnhanciveSlot, string[]>;
 }
 
 // ============================================================================

@@ -5,13 +5,14 @@
 import { useUIStore } from '../../store/uiStore';
 
 const navItems = [
-  { id: 'character' as const, label: 'Character', icon: '👤' },
+  { id: 'character' as const, label: 'Character', icon: '🧙' },
   { id: 'stats' as const, label: 'Stats', icon: '📊' },
-  { id: 'training' as const, label: 'Training', icon: '🎯' },
-  { id: 'enhancives' as const, label: 'Enhancives', icon: '✨' },
-  { id: 'ascension' as const, label: 'Ascension', icon: '⬆️' },
-  { id: 'calculators' as const, label: 'Calculators', icon: '🔢' },
-  { id: 'tables' as const, label: 'Tables', icon: '📋' },
+  { id: 'skills' as const, label: 'Skills', icon: '⚔️' },
+  { id: 'training' as const, label: 'Training', icon: '🏋️' },
+  { id: 'enhancives' as const, label: 'Enhancives', icon: '💎' },
+  { id: 'ascension' as const, label: 'Ascension', icon: '🪜' },
+  { id: 'calculators' as const, label: 'Calculators', icon: '🧮' },
+  { id: 'tables' as const, label: 'Tables', icon: '📚' },
 ];
 
 export default function Sidebar() {
@@ -50,8 +51,8 @@ export default function Sidebar() {
                 }}
                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-colors text-left ${
                   currentView === item.id
-                    ? 'bg-primary text-white font-semibold'
-                    : 'hover:bg-gray-100 text-gray-700'
+                    ? 'bg-blue-600 text-white font-semibold shadow-sm'
+                    : 'text-gray-700 hover:bg-gray-100 hover:text-blue-700'
                 }`}
               >
                 <span className="text-xl">{item.icon}</span>
@@ -72,3 +73,4 @@ export default function Sidebar() {
     </>
   );
 }
+

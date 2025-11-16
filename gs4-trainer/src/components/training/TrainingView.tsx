@@ -98,52 +98,31 @@ export default function TrainingView() {
     if (!currentCharacter) return { physicalTPs: 0, mentalTPs: 0, totalTPs: 0 };
 
     const training = currentCharacter.training || {};
+    const targetLevel = currentCharacter.targetLevel ?? currentCharacter.currentLevel ?? 0;
+
+    const groupTotals = new Map<number, number>();
+    for (const [skillIndexStr, skillData] of Object.entries(training)) {
+      const skillIndex = parseInt(skillIndexStr);
+      const targetRanks = skillData.targetRanks ?? 0;
+      if (targetRanks <= 0) continue;
+
+      const skill = SKILLS.find((s) => s.index === skillIndex);
+      const groupKey = skill?.parentIndex ?? skillIndex;
+      groupTotals.set(groupKey, (groupTotals.get(groupKey) ?? 0) + targetRanks);
+    }
+
     let totalPhysical = 0;
     let totalMental = 0;
 
-    // Group skills by their parentIndex (or their own index if no parent)
-    // Sub-skills sharing a parentIndex must have progressive costs calculated on combined ranks
-    const skillGroups = new Map<number, Array<{ index: number; currentRanks: number; targetRanks: number }>>();
-
-    for (const [skillIndexStr, skillData] of Object.entries(training)) {
-      const skillIndex = parseInt(skillIndexStr);
-      const { currentRanks = 0, targetRanks = 0 } = skillData;
-
-      if (targetRanks <= currentRanks) continue;
-
-      // Find the skill definition to get its parentIndex
-      const skill = SKILLS.find(s => s.index === skillIndex);
-      const groupKey = skill?.parentIndex ?? skillIndex;
-
-      if (!skillGroups.has(groupKey)) {
-        skillGroups.set(groupKey, []);
-      }
-      skillGroups.get(groupKey)!.push({ index: skillIndex, currentRanks, targetRanks });
-    }
-
-    // Calculate costs for each group
-    for (const [groupKey, skills] of skillGroups.entries()) {
-      // Sum total ranks across all sub-skills in this group
-      const totalTargetRanks = skills.reduce((sum, s) => sum + s.targetRanks, 0);
-      const totalCurrentRanks = skills.reduce((sum, s) => sum + s.currentRanks, 0);
-
-      // Calculate cost using the group's lookup index (parentIndex)
+    for (const [groupKey, totalTargetRanks] of groupTotals.entries()) {
       const targetCost = calculateSkillCost(
         groupKey,
         currentCharacter.profession,
         totalTargetRanks,
-        currentCharacter.currentLevel
+        targetLevel
       );
-
-      const currentCost = totalCurrentRanks > 0 ? calculateSkillCost(
-        groupKey,
-        currentCharacter.profession,
-        totalCurrentRanks,
-        currentCharacter.currentLevel
-      ) : { totalPTP: 0, totalMTP: 0 };
-
-      totalPhysical += (targetCost.totalPTP - currentCost.totalPTP);
-      totalMental += (targetCost.totalMTP - currentCost.totalMTP);
+      totalPhysical += targetCost.totalPTP;
+      totalMental += targetCost.totalMTP;
     }
 
     return {
@@ -151,7 +130,7 @@ export default function TrainingView() {
       mentalTPs: totalMental,
       totalTPs: totalPhysical + totalMental,
     };
-  }, [currentCharacter?.training, currentCharacter?.profession, currentCharacter?.currentLevel]);
+  }, [currentCharacter?.training, currentCharacter?.profession, currentCharacter?.targetLevel, currentCharacter?.currentLevel]);
 
   // Calculate remaining TPs
   const remainingTPs = useMemo(() => {
@@ -226,6 +205,22 @@ export default function TrainingView() {
     updateCharacter({ training: updatedTraining });
   };
 
+  const handleCurrentRanksChange = (skillIndex: number, currentRanks: number) => {
+    const sanitized = Math.max(0, currentRanks);
+    const existing = training[skillIndex] || { targetRanks: 0, frequency: 0, currentRanks: 0 };
+
+    const updatedTraining: TrainingPlan = {
+      ...training,
+      [skillIndex]: {
+        currentRanks: sanitized,
+        targetRanks: existing.targetRanks ?? 0,
+        frequency: existing.frequency ?? ((existing.targetRanks ?? 0) / (currentCharacter.currentLevel + 1)),
+      },
+    };
+
+    updateCharacter({ training: updatedTraining });
+  };
+
   const handleTargetRanksChange = (skillIndex: number, targetRanks: number) => {
     // Calculate frequency from target ranks: frequency = targetRanks / (currentLevel + 1)
     // Note: +1 accounts for training at level 0 through currentLevel
@@ -249,6 +244,30 @@ export default function TrainingView() {
       setAutoTrainResult(null);
       setShowBreakdown(false);
     }
+  };
+
+  const handleSyncCurrentToTargets = () => {
+    if (Object.keys(training).length === 0) {
+      return;
+    }
+
+    if (
+      !confirm(
+        'Set every skill’s current ranks equal to its target ranks? This should only be used when you finish training to those targets.'
+      )
+    ) {
+      return;
+    }
+
+    const updatedTraining: TrainingPlan = {};
+    for (const [skillIndex, data] of Object.entries(training)) {
+      updatedTraining[Number(skillIndex)] = {
+        ...data,
+        currentRanks: data.targetRanks ?? data.currentRanks ?? 0,
+      };
+    }
+
+    updateCharacter({ training: updatedTraining });
   };
 
   const handleAutoTrain = () => {
@@ -409,6 +428,12 @@ export default function TrainingView() {
             >
               Clear All
             </button>
+            <button
+              onClick={handleSyncCurrentToTargets}
+              className="px-6 py-4 bg-blue-50 border border-blue-200 text-blue-800 font-semibold text-lg rounded-lg shadow-sm hover:bg-blue-100 transition-all"
+            >
+              Sync Current → Target
+            </button>
             {autoTrainResult && (
               <button
                 onClick={() => {
@@ -566,7 +591,27 @@ export default function TrainingView() {
                       <div className="text-xs text-gray-500 mt-1">/level</div>
                     </td>
                     <td className="text-center py-3 px-4">
-                      {skillData.currentRanks || 0}
+                      <div className="flex flex-col items-center gap-2">
+                        <input
+                          type="number"
+                          min="0"
+                          max={maxRanks}
+                          value={skillData.currentRanks || 0}
+                          onChange={(e) => {
+                            const value = parseInt(e.target.value);
+                            handleCurrentRanksChange(skillIndex, isNaN(value) ? 0 : value);
+                          }}
+                          className="w-20 px-2 py-1 border border-gray-300 rounded text-center focus:ring-2 focus:ring-primary focus:border-transparent"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => handleCurrentRanksChange(skillIndex, skillData.targetRanks || 0)}
+                          className="text-xs text-blue-600 hover:text-blue-800"
+                          disabled={!skillData.targetRanks}
+                        >
+                          Match target
+                        </button>
+                      </div>
                     </td>
                     <td className="text-center py-3 px-4">
                       <input
@@ -666,3 +711,4 @@ export default function TrainingView() {
     </div>
   );
 }
+
