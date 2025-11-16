@@ -79,6 +79,21 @@ export default function AscensionSkillTree() {
     return totals;
   }, [abilityMap, selections]);
 
+  const tierCostTotals = useMemo(() => {
+    const totals: Record<AscensionTier, number> = {
+      Common: 0,
+      Elite: 0,
+      Legendary: 0,
+    };
+    for (const selection of selections) {
+      const ability = abilityMap.get(selection.abilityId);
+      if (ability) {
+        totals[ability.tier] += calculateAbilityCost(ability, selection.ranks);
+      }
+    }
+    return totals;
+  }, [abilityMap, selections]);
+
   const ascensionXP = currentCharacter.ascensionXP ?? 0;
   const earnedATPs = calculateEarnedATPs(ascensionXP);
   const milestoneATPs = calculateMilestoneATPs(ascension.milestones);
@@ -131,6 +146,24 @@ export default function AscensionSkillTree() {
           .map((reqId) => abilityMap.get(reqId)?.name ?? reqId)
           .join(', ')}`,
         met: allMet,
+      });
+    }
+    if (ability.requiresAbilityRankTotal) {
+      const totalRanks = ability.requiresAbilityRankTotal.abilityIds.reduce(
+        (acc, abilityId) => acc + (selectedRanks.get(abilityId) ?? 0),
+        0
+      );
+      statuses.push({
+        label: ability.requiresAbilityRankTotal.label ??
+          `${ability.requiresAbilityRankTotal.minTotalRanks} combined ranks required`,
+        met: totalRanks >= ability.requiresAbilityRankTotal.minTotalRanks,
+      });
+    }
+    if (ability.requiresTierCost) {
+      const spent = tierCostTotals[ability.requiresTierCost.tier];
+      statuses.push({
+        label: `${ability.requiresTierCost.minCost} ATP spent in ${ability.requiresTierCost.tier}`,
+        met: spent >= ability.requiresTierCost.minCost,
       });
     }
     if (ability.professionRestriction?.length) {
@@ -223,6 +256,16 @@ export default function AscensionSkillTree() {
                 {TIERS.map((tier) => (
                   <span key={tier} className="px-2 py-1 bg-white rounded border border-gray-200">
                     {tier}: <span className="font-semibold text-gray-900">{tierRankTotals[tier]}</span>
+                  </span>
+                ))}
+              </div>
+              <div className="text-xs text-gray-500 mb-1 mt-3">
+                Tier ATP Spend
+              </div>
+              <div className="flex flex-wrap gap-3 text-xs text-gray-600">
+                {TIERS.map((tier) => (
+                  <span key={`${tier}-cost`} className="px-2 py-1 bg-white rounded border border-gray-200">
+                    {tier}: <span className="font-semibold text-gray-900">{tierCostTotals[tier]}</span>
                   </span>
                 ))}
               </div>
